@@ -1,0 +1,12 @@
+-- MediaCRM Seed Data
+-- Run this AFTER the initial schema migration
+-- WARNING: Only run for development/demo purposes
+
+-- Insert demo channels (user_id should be replaced with actual user UUID)
+-- INSERT INTO platform_channels (id, user_id, platform, name, status, subscriber_count, last_sync_at)
+-- VALUES
+--   ('aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa', 'YOUR_USER_ID', 'youtube', 'Мой YouTube канал', 'connected', 12500, NOW()),
+--   ('bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb', 'YOUR_USER_ID', 'telegram', 'Мой Telegram канал', 'connected', 3200, NOW()),
+--   ('cccccccc-cccc-cccc-cccc-cccccccccccc', 'YOUR_USER_ID', 'boosty', 'Мой Boosty', 'connected', 245, NOW()),
+--   ('dddddddd-dddd-dddd-dddd-dddddddddddd', 'YOUR_USER_ID', 'vk', 'Моя группа ВКонтакте', 'connected', 2300, NOW()),
+--   ('eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee', 'YOUR_USER_ID', 'github', 'Мой GitHub', 'connected', 205, NOW());

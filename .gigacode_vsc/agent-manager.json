@@ -1,0 +1,69 @@
+{
+  "worktrees": {},
+  "sessions": {
+    "ses_e27f50497ffe3Fy80RhkJUt8J7": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T03:12:40.859Z"
+    },
+    "ses_e27ba7225ffeBS1rqDDGB7Mj4i": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T04:16:39.408Z"
+    },
+    "ses_e271ba618ffe6BfDGZDuMm4qvB": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T07:10:06.323Z"
+    },
+    "ses_e26915270ffe97RbIFsF86xNqc": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T09:41:11.713Z"
+    },
+    "ses_e2669633bffeKM9Z71mKchP7PG": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T10:24:48.851Z"
+    },
+    "ses_e254dd5cfffe626YODYS5NyPrh": {
+      "worktreeId": null,
+      "createdAt": "2026-11-14T15:34:31.755Z"
+    },
+    "ses_e232a90a3ffe3D2X3ewEuvYpd2": {
+      "worktreeId": null,
+      "createdAt": "2026-11-15T01:32:17.637Z"
+    },
+    "ses_e22f01ba6ffeKUBcuL6GQLuYdT": {
+      "worktreeId": null,
+      "createdAt": "2026-11-15T02:36:08.692Z"
+    },
+    "ses_e22ba5d71ffeRtGWSlNuhKSY4Z": {
+      "worktreeId": null,
+      "createdAt": "2026-11-15T03:34:50.794Z"
+    },
+    "ses_e2216acfcffeWNYrtbINaEV3BY": {
+      "worktreeId": null,
+      "createdAt": "2026-11-15T06:33:38.321Z"
+    },
+    "ses_e220942bfffeZ02nLJKASIdW7e": {
+      "worktreeId": null,
+      "createdAt": "2026-11-15T06:48:17.484Z"
+    },
+    "ses_e1c98d3eaffeSUEWm5tEZBSNoY": {
+      "worktreeId": null,
+      "createdAt": "2026-11-16T08:09:11.977Z"
+    }
+  },
+  "tabOrder": {
+    "local": [
+      "ses_e27f50497ffe3Fy80RhkJUt8J7",
+      "ses_e27ba7225ffeBS1rqDDGB7Mj4i",
+      "ses_e271ba618ffe6BfDGZDuMm4qvB",
+      "ses_e26915270ffe97RbIFsF86xNqc",
+      "ses_e2669633bffeKM9Z71mKchP7PG",
+      "ses_e254dd5cfffe626YODYS5NyPrh",
+      "ses_e232a90a3ffe3D2X3ewEuvYpd2",
+      "ses_e22f01ba6ffeKUBcuL6GQLuYdT",
+      "ses_e22ba5d71ffeRtGWSlNuhKSY4Z",
+      "ses_e2216acfcffeWNYrtbINaEV3BY",
+      "ses_e220942bfffeZ02nLJKASIdW7e",
+      "ses_e1c98d3eaffeSUEWm5tEZBSNoY"
+    ]
+  }
+}

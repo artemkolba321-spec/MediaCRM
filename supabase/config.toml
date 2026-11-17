@@ -1,0 +1,37 @@
+# Supabase Configuration for MediaCRM
+[db]
+port = 5432
+
+[studio]
+port = 54321
+
+[auth]
+enable_signup = true
+
+[auth.email]
+enable_signup = true
+double_confirmations = true
+
+[api]
+port = 54321
+schemas = ["public", "storage", "graphql"]
+
+[realtime]
+enabled = true
+
+# ── Edge Functions: JWT verification ─────────────────────────────────────
+#
+# platform-oauth-start  — вызывается из Flutter, но не использует JWT
+#                         для авторизации (ownership проверяется на сервере
+#                         через SUPABASE_SERVICE_ROLE_KEY).
+# platform-oauth-callback — вызывается из браузера (Google OAuth redirect),
+#                         JWT физически недоступен.
+#
+# Остальные функции (platform-sync, platform-connect, platform-disconnect)
+# вызываются из Flutter через Supabase SDK с JWT — проверка включена.
+#
+[functions."platform-oauth-start"]
+verify_jwt = false
+
+[functions."platform-oauth-callback"]
+verify_jwt = false
